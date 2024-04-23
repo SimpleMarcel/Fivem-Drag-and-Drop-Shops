@@ -1,0 +1,474 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+body {
+margin: 0;
+padding: 0;
+display: flex;
+overflow: hidden;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+.SimpleScriptsWarenkorbProdukte {
+background-color: #cacaca36; 
+border-radius: 2px;
+width: 261px;
+display: flex;
+margin-left: 5px;
+border: 2px solid #ffffff5d;
+color: #ffffff;
+font-family: 'Poppins', sans-serif;
+height: 50px;
+padding: 5px;
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+display: flex;
+align-items: center; 
+}
+
+.SimpleScriptsWarenkorbProdukte .SimpleScriptsWarenkorbProduktImage {
+margin-right: 10px;
+}
+
+.SimpleScriptsWarenkorbProdukte .SimpleScriptsWarenkorbProduktImage img {
+width: 30px; 
+height: 30px;
+margin-top: 7px;
+}
+
+.SimpleScriptsWarenkorbProdukte .SimpleScriptsWarenkorbProduktNamen {
+font-size: 9px;
+font-weight: bold;
+margin-right: auto; 
+}
+
+.SimpleScriptsWarenkorbProdukte .SimpleScriptsWarenkorbProduktAnzahl {
+font-size: 9px;
+position: absolute;
+left: 150px;
+}
+
+.SimpleScriptsWarenkorbButtons {
+display: flex;
+position: absolute;
+left: 170px;
+}
+
+.SimpleScriptsWarenkorbProdukte .SimpleScriptsWarenkorbButtons button {
+color: #fff;
+border: none;
+border-radius: 3px;
+width: 25px;
+height: 25px;
+font-size: 14px;
+cursor: pointer;
+margin-left: 5px; 
+}
+
+.SimpleScriptsWarenkorbButtonMinus {
+background: linear-gradient(180deg, #aa1212, rgba(92, 10, 10, 0.82));
+}
+
+.SimpleScriptsWarenkorbButtonPlus {
+background: linear-gradient(180deg, #17aa12, rgba(33, 92, 10, 0.82));
+}
+
+.SimpleScriptsWarenkorbProdukte .SimpleScriptsWarenkorbButtons button:hover {
+background-color: #0d803f;
+}
+
+.SimpleScriptsWarenkorbProdukte .SimpleScriptsWarenkorbButtonLöschen {
+width: 25px;
+height: 25px;
+position: absolute;
+cursor: pointer;
+left: 240px;
+}
+
+.SimpleScriptsBox {
+width: 1145px;
+height: 670px;
+border: 2px solid #ffffff9f;
+background: linear-gradient(180deg, #051942, rgb(2, 26, 48));
+border-radius: 10px;
+box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.2); 
+position: relative; 
+}
+
+.SimpleScriptsReinziehenBild {
+width: 100px;
+margin-top: 100px;
+margin-left: 80px;
+height: 100px;
+}
+
+.SimpleScriptsReinziehenText {
+margin-top: 10px;
+margin-left: 25px;
+font-size: 15px;
+font-family: 'Poppins', sans-serif;
+color: rgba(255, 255, 255, 0.253);
+font-weight: bold;
+}
+
+.header h1 {
+font-family: 'Poppins', sans-serif;
+font-size: 20px;
+text-align: center;
+color: #ffffff;
+margin-top: 35px;
+margin-bottom: 2px;
+}
+
+.header h2 {
+font-family: 'Poppins', sans-serif;
+font-size: 20px;
+text-align: center;
+color: #ffffff4b;
+margin-top: -10px;
+margin-bottom: 2px;
+}
+
+.logo {
+position: absolute;
+top: 23px;
+left: 41.5%;
+transform: translateX(-50%);
+width: 75px;
+height: 75px;
+}
+
+.Kategorie-List {
+position: absolute;
+top: 43%;
+left: 4%;
+transform: translateY(-50%);
+}
+
+.Produkt-List {
+margin-top: 95px;
+width: 500px;
+background-color: #ffffff00;
+height: auto; 
+max-height: 500px;
+margin-left: 290px;
+display: flex;
+flex-wrap: wrap;
+justify-content: flex-start; 
+}
+
+.SimpleScripts-Kategorie-Button {
+display: flex;
+align-items: center;
+background-color: #ffffff2f;
+color: #ffffff;
+border: 2px solid #ffffff5d;
+width: 210px;
+font-family: 'Poppins', sans-serif;
+height: 55px;
+font-size: 23px;
+margin: 5px auto;
+border-radius: 2px;
+cursor: pointer;
+min-width: 150px;
+}
+
+.SimpleScripts-Kategorie-Button.Ausgewählt {
+background-color: #00c3ff9a;
+border: 2px solid #ffffff5d;
+}
+
+.SimpleScripts-Kategorie-Button img {
+width: 30px;
+height: 30px;
+border-radius: 5px;
+}
+
+.SimpleScripts-Kategorie-Button:hover {
+background-color: #00c3ff9a;
+border: 2px solid #ffffff5d;
+}
+
+.Kategorie-Bild-Klasse {
+background-color: #cacaca36; 
+padding: 5px; 
+left: 43px;
+position: absolute;
+top: 130px;
+display: flex;
+width: 20px;
+height: 20px;
+border-radius: 2px; 
+}
+
+.Produkt-Bild-Klasse {
+background-color: #cacaca36; 
+padding: 5px; 
+position: absolute;
+left: 300px;
+top: 130px;
+display: flex;
+width: 20px;
+height: 20px;
+border-radius: 2px; 
+}
+
+.SimpleScripts-Kategorie-Button-Container {
+background-color: #cacaca36; 
+padding: 5px; 
+border-radius: 2px; 
+display: flex;
+margin-left: 7px;
+align-items: center;
+justify-content: center;
+}
+
+.Kategorie-List span {
+color: #f3f2f2ad;
+margin-left: 10px;
+}
+
+.Kategorie-Text {
+left: 79px;
+position: absolute;
+top: 115px;
+}
+
+.Kategorie-Text h3 {
+font-size: 13px;
+margin-bottom: -15px;
+font-family: 'Poppins', sans-serif;
+color: #ffffff;
+}
+
+.Kategorie-Text h2 {
+font-size: 14px;
+margin-bottom: 5px;
+font-family: 'Poppins', sans-serif;
+color: #ffffff86;
+}
+
+.Produkte-Text {
+position: absolute;
+left: 335px;
+top: 115px;
+}
+
+.Produkte-Text h3 {
+font-size: 13px;
+margin-bottom: -15px;
+font-family: 'Poppins', sans-serif;
+color: #ffffff;
+}
+
+.Produkte-Text h2 {
+font-size: 14px;
+margin-bottom: 5px;
+font-family: 'Poppins', sans-serif;
+color: #ffffff86;
+}
+
+.SimpleScriptsProdukte {
+background-color: #cacaca36; 
+color: white;
+border-radius: 2px;
+width: calc(24% - 20px); 
+border: 2px solid #ffffff5d;
+height: 100px;
+margin: 10px;
+box-sizing: border-box;
+}
+
+.SimpleScriptsProdukte img {
+width: 30px;
+height: 30px;
+margin-left: 35px;
+}
+
+.SimpleScriptsProduktName{
+text-align: center;
+font-family: 'Poppins', sans-serif;
+font-size: 10px;
+}
+
+.SimpleScriptsProduktPreis {
+font-family: 'Poppins', sans-serif;
+text-align: center;
+font-size: 10px;  
+top: -33;
+background: linear-gradient(180deg, #12aa4c, rgba(10, 92, 14, 0.82));
+}
+
+.Warenkorb-Positionen {
+display: flex;
+flex-direction: column;
+gap: 10px;
+padding: 10px;
+overflow-y: auto; 
+}
+
+.Warenkorb-List {
+overflow: auto;
+width: 310px;
+top: 180px;
+left: 785px;
+position: absolute;
+height: 300px;
+background-color: rgba(0, 255, 102, 0);
+}
+
+.Warenkorb-Text {
+position: absolute;
+left: 835px;
+transform: translateY(-50%);
+top: 143px;
+}
+
+.Warenkorb-Text h3 {
+font-size: 13px;
+margin-bottom: -15px;
+font-family: 'Poppins', sans-serif;
+color: #ffffff;
+}
+
+.Warenkorb-Text h2 {
+font-size: 14px;
+margin-bottom: 5px;
+font-family: 'Poppins', sans-serif;
+color: #ffffff86;
+}
+
+.Warenkorb-Bild-Klasse {
+background-color: #cacaca36; 
+padding: 5px; 
+left: 800px;
+top: 130px;
+position: absolute;
+display: flex;
+width: 20px;
+height: 20px;
+border-radius: 2px; 
+}
+
+.Warenkorb-Bild-Klasse2 {
+background-color: #33bd0936; 
+padding: 5px; 
+left: 815px;
+top: 510px;
+position: absolute;
+display: flex;
+width: 25px;
+height: 25px;
+border-radius: 2px; 
+}
+
+.Warenkorb-Bild-Klasse3 {
+background-color: #0993bd62; 
+padding: 5px; 
+left: 920px;
+top: 510px;
+position: absolute;
+display: flex;
+width: 25px;
+height: 25px;
+border-radius: 2px; 
+}
+
+.Warenkorb2 {
+margin-left: 1px;
+width: 20px;
+margin-top: 2px;
+height: 20px;
+}
+
+.Warenkorb-List::-webkit-scrollbar {
+width: 10px;
+}
+
+.Warenkorb-List::-webkit-scrollbar-thumb {
+background-color: #00000036;
+border-radius: 5px;
+}
+
+.Warenkorb-List::-webkit-scrollbar-thumb:hover {
+background-color: #0000004f;
+}
+
+.Warenkorb-List::-webkit-scrollbar-track {
+background-color: #ffffff2f;
+border-radius: 10px; 
+}
+
+.Warenkorb-Text2 {
+position: absolute; 
+left: 855px; 
+top: 498px; 
+}
+
+
+.Warenkorb-Text2 h3 {
+font-size: 13px;
+margin-bottom: 0;
+font-family: 'Poppins', sans-serif;
+color: #ffffff;
+}
+
+.SimpleScriptsTotalPrice {
+color: #0ee219;
+text-shadow: 0 0 3px #0ee219; 
+font-size: 10px;
+font-family: 'Poppins', sans-serif;
+margin-top: -1px; 
+margin-bottom: 0; 
+}
+
+.Warenkorb-Text3 {
+position: absolute; 
+left: 962px; 
+transform: translateY(-50%);
+top: 522px; 
+}
+
+.Warenkorb-Text3 h3 {
+font-size: 13px;
+margin-bottom: 0;
+font-family: 'Poppins', sans-serif;
+color: #ffffff;
+}
+
+.SimpleScriptsProdukteInsgesamt {
+color: #0993bd;
+text-shadow: 0 0 3px #0993bd; 
+font-size: 10px;
+font-family: 'Poppins', sans-serif;
+margin-top: -1px; 
+margin-bottom: 0; 
+}
+
+.Warenkorb-Buttons {
+display: flex;
+position: absolute;
+left: 810px;
+top: 580px;
+gap: 10px; 
+}
+
+.Warenkorb-Buttons button {
+width: 120px;
+height: 45px;
+border: none;
+border-radius: 4px;  
+font-family: 'Poppins', sans-serif;
+border: 2px solid #ffffff5d;
+background-color: #cacaca36; 
+color: white;
+font-size: 16px;
+cursor: pointer;
+transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.Warenkorb-Buttons button:hover {
+transform: scale(1.05); 
+background-color: #00000036;
+}
+

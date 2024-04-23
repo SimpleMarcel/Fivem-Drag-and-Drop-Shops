@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<link type="text/css" rel="stylesheet" href="SimpleScripts.css">
+<title>SimpleScripts.eu</title>
+</head>
+<body>
+
+<div class="SimpleScriptsBox">
+  <img class="logo" src="Logo.png" alt="Logo">
+  <div class="header">
+    <h1>24/7 Shop</h1>
+    <h2>Supermarkt</h2>
+  </div>
+
+  <div class="Kategorie-Bild-Klasse">
+    <img src="Kategorie.png" alt="Logo1">
+  </div>
+
+  <div class="Kategorie-Text">
+    <h3>Kategorien</h3>
+    <h2>Wähle eine Kategorie</h2>
+  </div>
+
+  <div class="Kategorie-List">
+
+    <div class="SimpleScripts-Kategorie-Button" id="essen-button" data-category="Essen">
+      <div class="SimpleScripts-Kategorie-Button-Container">
+        <img src="Essen.png" alt="Logo1">
+      </div>
+      <span>Essen</span>
+    </div>
+
+    <div class="SimpleScripts-Kategorie-Button" id="trinken-button" data-category="Trinken">
+      <div class="SimpleScripts-Kategorie-Button-Container">
+        <img src="Trinken.png" alt="Logo2">
+      </div>
+      <span>Trinken</span>
+    </div>
+
+    <div class="SimpleScripts-Kategorie-Button" id="items-button" data-category="Item">
+      <div class="SimpleScripts-Kategorie-Button-Container">
+        <img src="Items.png" alt="Logo3">
+      </div>
+      <span>Items</span>
+    </div>
+
+  </div>
+
+  <div class="Produkte-Text">
+    <h3>Produkte</h3>
+    <h2>Wähle ein Produkt</h2>
+  </div>
+
+  <div class="Produkt-Bild-Klasse">
+    <img src="Produkte.png" alt="Logo1">
+  </div>
+
+<div class="Produkt-List">
+
+    <div class="SimpleScriptsProdukte">
+      <p class="SimpleScriptsProduktName">Item</p>
+      <img src="Items.png" alt="" draggable="true">
+      <p class="SimpleScriptsProduktPreis">100<span>$</span></p>
+  </div>
+  <div class="SimpleScriptsProdukte">
+      <p class="SimpleScriptsProduktName">Item</p>
+      <img src="Items.png" alt="" draggable="true">
+      <p class="SimpleScriptsProduktPreis">100<span>$</span></p>
+  </div>
+  <div class="SimpleScriptsProdukte">
+      <p class="SimpleScriptsProduktName">Item</p>
+      <img src="Items.png" alt="">
+      <p class="SimpleScriptsProduktPreis">100<span>$</span></p>
+  </div>
+  <div class="SimpleScriptsProdukte">
+      <p class="SimpleScriptsProduktName">Item</p>
+      <img src="Items.png" alt="">
+      <p class="SimpleScriptsProduktPreis">100<span>$</span></p>
+  </div>
+  <div class="SimpleScriptsProdukte">
+      <p class="SimpleScriptsProduktName">Item</p>
+      <img src="Items.png" alt="">
+      <p class="SimpleScriptsProduktPreis">100<span>$</span></p>
+  </div>
+  <div class="SimpleScriptsProdukte">
+      <p class="SimpleScriptsProduktName">Item</p>
+      <img src="Items.png" alt="">
+      <p class="SimpleScriptsProduktPreis">100<span>$</span></p>
+  </div>
+  <div class="SimpleScriptsProdukte">
+      <p class="SimpleScriptsProduktName">Item</p>
+      <img src="Items.png" alt="">
+      <p class="SimpleScriptsProduktPreis">100<span>$</span></p>
+  </div>
+  <div class="SimpleScriptsProdukte">
+      <p class="SimpleScriptsProduktName">Item</p>
+      <img src="Items.png" alt="">
+      <p class="SimpleScriptsProduktPreis">100<span>$</span></p>
+  </div>
+  <div class="SimpleScriptsProdukte">
+    <p class="SimpleScriptsProduktName">Item</p>
+    <img src="Items.png" alt="">
+    <p class="SimpleScriptsProduktPreis">1000000<span>$</span></p>
+</div>
+  
+</div>
+
+  <div class="Warenkorb-Bild-Klasse">
+    <img src="Warenkorb.png" alt="Logo1">
+  </div>
+
+  <div class="Warenkorb-Text">
+    <h3>Warenkorb</h3>
+    <h2>Wähle eine Aktion</h2>
+  </div>
+
+  <div class="Warenkorb-List" id="warenkorb">
+    <div class="Warenkorb-Positionen">
+      <div class="SimpleScriptsWarenkorbProdukte">
+        <div class="SimpleScriptsWarenkorbProduktImage">
+          <img src="Items.png" alt="">
+        </div>
+        <p class="SimpleScriptsWarenkorbProduktNamen">Item</p>
+        <p class="SimpleScriptsWarenkorbProduktAnzahl">X<span>2</span></p>
+        <div class="SimpleScriptsWarenkorbButtons">
+          <button class="SimpleScriptsWarenkorbButtonMinus">-</button>
+          <button class="SimpleScriptsWarenkorbButtonPlus">+</button>
+        </div>
+        <img class="SimpleScriptsWarenkorbButtonLöschen" src="Loschen.png" alt="">
+        <div class="SimpleScriptsWarenkorbButtonLöschenKlasse">
+        </div>
+      </div>
+
+        <div class="SimpleScriptsWarenkorbProdukte">
+          <div class="SimpleScriptsWarenkorbProduktImage">
+            <img src="Items.png" alt="">
+          </div>
+          <p class="SimpleScriptsWarenkorbProduktNamen">Item</p>
+          <p class="SimpleScriptsWarenkorbProduktAnzahl">X<span>2</span></p>
+          <div class="SimpleScriptsWarenkorbButtons">
+            <button class="SimpleScriptsWarenkorbButtonMinus">-</button>
+            <button class="SimpleScriptsWarenkorbButtonPlus">+</button>
+          </div>
+          <img class="SimpleScriptsWarenkorbButtonLöschen" src="Loschen.png" alt="">
+          <div class="SimpleScriptsWarenkorbButtonLöschenKlasse">
+          </div>
+        </div>
+
+        <div class="SimpleScriptsWarenkorbProdukte">
+        <div class="SimpleScriptsWarenkorbProduktImage">
+          <img src="Items.png" alt="">
+        </div>
+        <p class="SimpleScriptsWarenkorbProduktNamen">Verbandskasten</p>
+        <p class="SimpleScriptsWarenkorbProduktAnzahl">X<span>2</span></p>
+        <div class="SimpleScriptsWarenkorbButtons">
+          <button class="SimpleScriptsWarenkorbButtonMinus">-</button>
+          <button class="SimpleScriptsWarenkorbButtonPlus">+</button>
+        </div>
+        <img class="SimpleScriptsWarenkorbButtonLöschen" src="Loschen.png" alt="">
+        <div class="SimpleScriptsWarenkorbButtonLöschenKlasse">
+        </div>
+      </div>
+
+      <div class="SimpleScriptsWarenkorbProdukte">
+        <div class="SimpleScriptsWarenkorbProduktImage">
+          <img src="Items.png" alt="">
+        </div>
+        <p class="SimpleScriptsWarenkorbProduktNamen">Item</p>
+        <p class="SimpleScriptsWarenkorbProduktAnzahl">X<span>2</span></p>
+        <div class="SimpleScriptsWarenkorbButtons">
+          <button class="SimpleScriptsWarenkorbButtonMinus">-</button>
+          <button class="SimpleScriptsWarenkorbButtonPlus">+</button>
+        </div>
+        <img class="SimpleScriptsWarenkorbButtonLöschen" src="Loschen.png" alt="">
+        <div class="SimpleScriptsWarenkorbButtonLöschenKlasse">
+        </div>
+      </div>
+
+      <div class="SimpleScriptsWarenkorbProdukte">
+        <div class="SimpleScriptsWarenkorbProduktImage">
+          <img src="Items.png" alt="">
+        </div>
+        <p class="SimpleScriptsWarenkorbProduktNamen">Item</p>
+        <p class="SimpleScriptsWarenkorbProduktAnzahl">X<span>2</span></p>
+        <div class="SimpleScriptsWarenkorbButtons">
+          <button class="SimpleScriptsWarenkorbButtonMinus">-</button>
+          <button class="SimpleScriptsWarenkorbButtonPlus">+</button>
+        </div>
+        <img class="SimpleScriptsWarenkorbButtonLöschen" src="Loschen.png" alt="">
+        <div class="SimpleScriptsWarenkorbButtonLöschenKlasse">
+        </div>
+      </div>
+
+    </div>
+</div>
+
+<div class="Warenkorb-Bild-Klasse2">
+  <img src="Warenkorb1.png" alt="Logo1" class="Warenkorb2">
+</div>
+
+<div class="Warenkorb-Text2">
+  <h3>Preis:</h3>
+  <p class="SimpleScriptsTotalPrice">0<span>$</span></p>
+</div>
+
+<div class="Warenkorb-Bild-Klasse3">
+  <img src="Warenkorb3.png" alt="Logo3" class="Warenkorb3">
+</div>
+
+<div class="Warenkorb-Text3">
+  <h3>Insgesamt:</h3>
+  <p class="SimpleScriptsProdukteInsgesamt">Produkte: 0</p>
+</div>
+
+<div class="Warenkorb-Buttons">
+  <button id="SimpleScriptsCashButton" onclick='SimpleScriptsCeckout("money")'>Cash</button>
+  <button id="SimpleScriptsBankButton" onclick='SimpleScriptsCeckout("bank")'>Bank</button>
+</div>
+
+  <script src="SimpleScripts.js"></script>
+</body>
+</html>
