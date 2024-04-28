@@ -1,4 +1,4 @@
-##F**FiveM Drag and Drop Shop:**
+**FiveM Drag and Drop Shop:**
 
 ##Features:
 • Items können per drag and drop in den Warenkorb gezogen werden
