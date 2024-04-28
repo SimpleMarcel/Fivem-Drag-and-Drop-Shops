@@ -1,7 +1,7 @@
 **FiveM Drag and Drop Shop:**
 
 **Features:**
-> • Items können per drag and drop in den Warenkorb gezogen werden
+> 	`#RRGGBB` • Items können per drag and drop in den Warenkorb gezogen werden
 > • Verschiedene Kategorien
 > • Anti Dev Tools Manipulation
 > • Items gelangen Automatisch in den Warenkorb wenn man sie außerhalb loslässt
