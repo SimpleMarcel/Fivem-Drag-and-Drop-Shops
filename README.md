@@ -1,6 +1,7 @@
 **FiveM Drag and Drop Shop:**
 
 **Features:**
+> + ESX LEGACY
 > + Items können per drag and drop in den Warenkorb gezogen werden
 > + Verschiedene Kategorien
 > + Anti Dev Tools Manipulation
